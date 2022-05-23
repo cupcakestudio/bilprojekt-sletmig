@@ -1,9 +1,33 @@
 body {
-    background-color: #c6c6c6;
+  background-color: #c6c6c6;
 }
 
-h1 {}
+h1 {
+}
 
-h2 {}
+h2 {
+}
 
-p {}
+p {
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  border: 1px dashed red;
+}
+
+header > nav > ul {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  align-items: center;
+  list-style: none;
+  padding-inline-end: 1em;
+}
+
+header > nav > ul > li > a {
+  color: black;
+  font-size: 2em;
+  text-decoration: none;
+}
