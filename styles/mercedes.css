@@ -3,3 +3,12 @@ h1 {
 }
 
 p {color: grey;}
+
+section{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 5px;
+}
+video {
+  inline-size: 100%;
+}
